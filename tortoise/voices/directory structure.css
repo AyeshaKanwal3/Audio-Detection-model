@@ -1,0 +1,17 @@
+audio_classification_project/
+│
+├── dataset/
+│   ├── train/
+│   │   ├── real/
+│   │   │   └── [real audio files].wav
+│   │   └── ai_generated/
+│   │       └── [ai-generated audio files].wav
+│   └── val/
+│       ├── real/
+│       │   └── [real audio files].wav
+│       └── ai_generated/
+│           └── [ai-generated audio files].wav
+│
+├── train.py
+├── app.py
+└── audio_classifier.pth
